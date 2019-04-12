@@ -15,15 +15,20 @@
   </script>
 
   
-  <title>Jndoi&#39;s Blog</title>
+  <title>Chapter3 | Jndoi&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Jndoi&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="3.1 TensorFlow&amp;#x8BA1;&amp;#x7B97;&amp;#x6A21;&amp;#x578B;&amp;#x2014;&amp;#x2014;&amp;#x8BA1;&amp;#x7B97;&amp;#x56FE;3.1.1 &amp;#x8BA1;&amp;#x7B97;&amp;#x56FE;&amp;#x7684;&amp;#x6982;&amp;#x5FF5; &amp;#x6570;&amp;#x636E;&amp;#x7ED3;&amp;#x6784;Tensor+&amp;#x8BA1;&amp;#x7B97;&amp;#x6">
+<meta name="keywords" content="TensorFlow">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Chapter3">
+<meta property="og:url" content="http://yoursite.com/2019/04/12/TensorFlow-Chapter3/index.html">
 <meta property="og:site_name" content="Jndoi&#39;s Blog">
+<meta property="og:description" content="3.1 TensorFlow&amp;#x8BA1;&amp;#x7B97;&amp;#x6A21;&amp;#x578B;&amp;#x2014;&amp;#x2014;&amp;#x8BA1;&amp;#x7B97;&amp;#x56FE;3.1.1 &amp;#x8BA1;&amp;#x7B97;&amp;#x56FE;&amp;#x7684;&amp;#x6982;&amp;#x5FF5; &amp;#x6570;&amp;#x636E;&amp;#x7ED3;&amp;#x6784;Tensor+&amp;#x8BA1;&amp;#x7B97;&amp;#x6">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-04-12T14:34:31.922Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Jndoi&#39;s Blog">
+<meta name="twitter:title" content="Chapter3">
+<meta name="twitter:description" content="3.1 TensorFlow&amp;#x8BA1;&amp;#x7B97;&amp;#x6A21;&amp;#x578B;&amp;#x2014;&amp;#x2014;&amp;#x8BA1;&amp;#x7B97;&amp;#x56FE;3.1.1 &amp;#x8BA1;&amp;#x7B97;&amp;#x56FE;&amp;#x7684;&amp;#x6982;&amp;#x5FF5; &amp;#x6570;&amp;#x636E;&amp;#x7ED3;&amp;#x6784;Tensor+&amp;#x8BA1;&amp;#x7B97;&amp;#x6">
   
     <link rel="alternate" href="/atom.xml" title="Jndoi&#39;s Blog" type="application/atom+xml">
   
@@ -101,398 +106,164 @@
 
   <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
       <div class="main-inner-content">
-          <style>
-    .post-hover:hover {
-        box-shadow: inset 0 0 100px #000;
-        transition: box-shadow .2s;
-    }
+          <!--博文页面-->
 
-    .sub-post-container .post-hover:hover h3 {
-        text-decoration: underline gray;
-    }
-
-
-    .primary-item-main {
-        height: 330px;
+<style>
+    .header-box {
+        height: 370px;
+        filter: blur(10px);
         background-size: cover;
+        background-color: lightsteelblue;
     }
 
-    .primary-container .title,
-    .primary-container .sub-title,
-    .primary-container .post-content-text,
-    .primary-container .date {
-        color: #fff;
+    .post-box {
+        padding: 15px;
+        padding-top: 60px;
+        min-height: 80vh;
+        margin-top: -200px;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,.8);
     }
 
-    .post-content-text {
-        color: #f1f1f1!important;
-    }
-
-    .primary-container .post-hover {
-        background: black;
-    }
-
-    .content-bg-mask {
-        background: rgba(0,0,0,.4);
-    }
-
-</style>
-
-<div style="background: #f5f8f9;">
-    <div id="main-container" class="container" style="padding-top: 20px;">
-        <div class="is-flex main-content justify-center">
-            <section class="column is-9">
-                
-<div class="primary-container content-box is-flex-desktop clear-padding bottom-line" style="margin-bottom: 25px;">
-    <div class="column  is-7-desktop">
-        <a href="/2019/04/12/TensorFlow-Chapter3/">
-            <div class="full-height post-hover" style="
-                         background-image: url('');
-                         height: 350px;
-                         background-size: cover;
-                         background-repeat: no-repeat;
-                         ">
-                    <div class=" is-flex flex-column center content has-text-centered full-height has-padding content-bg-mask">
-                        <h1 class="title text-shadow" style="margin-bottom: 15px;">
-                            Chapter3
-                        </h1>
-                        <div>
-                        
-                            `
-                                <span class="tag is-post-tag">TensorFlow</span>
-                            
-                        
-                        </div>
-                        <p class="post-content-text is-marginless has-padding text-shadow">
-                            3.1 TensorFlow&#x8BA1;&#x7B97;&#x6A21;&#x578B;&#x2014;&#x2014;&#x8BA1;&#x7B97;&#x56FE;3.1.1 &#x8BA1;&#x7B97;&#x56FE;&#..
-                        </p>
-                        <p class="date text-shadow">2019-04-12</p>
-                        <button class="button is-info is-small">Read More</button>
-                    </div>
-            </div>
-        </a>
-    </div>
-    <div class="column is-5 is-hidden-touch" style="padding-left: 0;">
-        <div class="full-height is-flex flex-column justify-space-between" style="min-height: 350px;">
-            
-                
-<a class="post-hover" href="/2019/04/12/South/" style="height: 48.5%">
-    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('')">
-        <div class="content-bg-mask full-width full-height has-padding">
-            <h3 class="title is-marginless text-shadow">
-                South
-            </h3>
-            
-            
-            <span class="tag is-post-tag">Mao Yuan study</span>
-            
-            
-            <p class="sub-title text-shadow"></p>
-            <p class="is-marginless text-shadow post-content-text">
-                &#x5357;&#x65B9;&#x8C08;&#x8BDD;
-&#x8D44;&#x6599..
-            </p>
-            <p class="date text-shadow is-marginless">2019-04-12</p>
-        </div>
-    </div>
-</a>
-            
-            
-                
-<a class="post-hover" href="/2019/04/11/hello-world/" style="height: 48.5%">
-    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('')">
-        <div class="content-bg-mask full-width full-height has-padding">
-            <h3 class="title is-marginless text-shadow">
-                Hello World
-            </h3>
-            
-            
-            
-            <p class="sub-title text-shadow"></p>
-            <p class="is-marginless text-shadow post-content-text">
-                Welcome to Hexo! This is your very first post. C..
-            </p>
-            <p class="date text-shadow is-marginless">2019-04-11</p>
-        </div>
-    </div>
-</a>
-            
-        </div>
-    </div>
-    <div class="column is-12 is-hidden-desktop">
-        
-        
-<a class="post-hover" href="/2019/04/12/South/" style="height: 48.5%">
-    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('')">
-        <div class="content-bg-mask full-width full-height has-padding">
-            <h3 class="title is-marginless text-shadow">
-                South
-            </h3>
-            
-            
-            <span class="tag is-post-tag">Mao Yuan study</span>
-            
-            
-            <p class="sub-title text-shadow"></p>
-            <p class="is-marginless text-shadow post-content-text">
-                &#x5357;&#x65B9;&#x8C08;&#x8BDD;
-&#x8D44;&#x6599..
-            </p>
-            <p class="date text-shadow is-marginless">2019-04-12</p>
-        </div>
-    </div>
-</a>
-        
-        
-        
-<a class="post-hover" href="/2019/04/11/hello-world/" style="height: 48.5%">
-    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('')">
-        <div class="content-bg-mask full-width full-height has-padding">
-            <h3 class="title is-marginless text-shadow">
-                Hello World
-            </h3>
-            
-            
-            
-            <p class="sub-title text-shadow"></p>
-            <p class="is-marginless text-shadow post-content-text">
-                Welcome to Hexo! This is your very first post. C..
-            </p>
-            <p class="date text-shadow is-marginless">2019-04-11</p>
-        </div>
-    </div>
-</a>
-        
-    </div>
-</div>
-
-                    
-                    
-                
-                    
-                        <div class="content-box  is-hidden-desktop" style="margin-bottom: 27px;">
-                            <a class="post-hover" href="/2019/04/12/South/">
-                            <div class="columns" style="min-height: 230px;">
-                                
-                                <div class="column is-8-desktop post-content is-flex align-center">
-                                    <div class="content">
-                                        <h3>South</h3>
-                                        
-                                        <p>
-                                            
-                                                <span class="tag is-post-tag">Mao Yuan study</span>
-                                            
-                                        </p>
-                                        <p>
-                                            &#x5357;&#x65B9;&#x8C08;&#x8BDD;
-&#x8D44;&#x6599;
-
-&#x9093;&#x5C0F;&#x5E73;&#xFF1A;&#x300A;&#x5728;&#x6B66;&#x660C;&#x3001;&#x6DF1;&#x5733;&#x3001;&#x73E0;&#x6D77;&#x3001;&#x4E0A..
-                                        </p>
-                                        <p>2019-04-12</p>
-                                        <button class="button is-small">Read More</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        </div>
-                    
-                
-                    
-                        <div class="content-box  is-hidden-desktop" style="margin-bottom: 27px;">
-                            <a class="post-hover" href="/2019/04/11/hello-world/">
-                            <div class="columns" style="min-height: 230px;">
-                                
-                                <div class="column is-8-desktop post-content is-flex align-center">
-                                    <div class="content">
-                                        <h3>Hello World</h3>
-                                        
-                                        <p>
-                                            
-                                        </p>
-                                        <p>
-                                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can a..
-                                        </p>
-                                        <p>2019-04-11</p>
-                                        <button class="button is-small">Read More</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        </div>
-                    
-                
-                <!--翻頁-->
-                <nav class="pagination is-flex" style="justify-content: flex-end">
-                    
-                        
-                        
-                    
-                </nav>
-            </section>
-            
-                <style>
-    /*user info start*/
-    .user-info {
-        padding: 15px 0 0;
-    }
-
-    .user-info .avatar {
-        width: 155px;
-        height: 155px;
+    .post-avatar {
+        height: 30px;
+        width: 30px;
         border-radius: 50%;
     }
 
-    .sns-container {
-        flex-wrap: wrap;
-    }
-
-    .sns-container a{
-        color: black;
-    }
-    /*user info end*/
-
-    /*Tag start*/
-    #tag_cloud .tags-item{
-        display: inline-block;
-        color: #000;
-        border: 1px solid gray;
-
-        margin: 4px 2px;
-        padding: 0 4px;
-        border-radius: 6px;
-    }
-    /*Tag end*/
-
-    /*Site box start*/
-    .site-box {
-        height: 60px;
-    }
-    /*Site box end*/
-
-    .category-list-item,
-    .archive-list-item {
-        display: flex;
-        margin-bottom: 4px;
-        justify-content: space-between;
-    }
-    .category-list-link,
-    .archive-list-link {
-        color: black;
-    }
-
-    .category-list-count,
-    .archive-list-count {
-        width: 32px;
+    .flow-chart {
         text-align: center;
-        border-radius: 4px;
-        color: #fff;
-        background-color: gray;
+    }
+
+    img[alt="post-cover"] {
+        display: none;
     }
 </style>
-<aside class="column is-hidden-touch is-3" style="max-width: 280px; min-width: 230px">
-    <div class="content-box user-info">
-        <div class="has-padding">
-            <header class="has-text-centered">
-                <img class="avatar" src="https://b-ssl.duitang.com/uploads/item/201704/23/20170423000218_Vms8U.thumb.700_0.jpeg">
-            </header>
-            <section class="has-text-centered">
-                <h3><strong>29-Y</strong></h3>
-                <p class="sub-title">A College Student</p>
-                
-                <p class="is-flex center" style=" color: gray">
-                    <i class="fa fa-map-marker" style="padding: 5px"></i>
-                    ShenYang China
-                </p>
-                
-            </section>
-        </div>
-        <div class="top-line">
-            <ul class="sns-container justify-center is-flex has-padding">
-                
-
-                
-
-                
-
-                
-                <li>
-                    <a target="_blank" href="http://weibo.com/Jndoi">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                                        </span>
-                    </a>
-                </li>
-                
-
-                
-
-                
-                <li>
-                    <a target="_blank" href="https://github.com/Jndoi">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                        </span>
-                    </a>
-                </li>
-                
-
-                
-            </ul>
-        </div>
-    </div>
-    <div class="content-box">
-        <!--post数量和tag category 数量-->
-        <div class="site-box is-flex">
-            <div class="flex-1 is-flex flex-column center full-height right-line">
-                <strong>3</strong>
-                <p>Posts</p>
+<header>
+    <div id="header_box" class="header-box"></div>
+</header>
+<section>
+    <div class="container post-box">
+        <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
+            <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
+                <strong>Chapter3</strong>
+            </h1>
+            
+            <div class="is-flex align-center">
+                <img class="post-avatar" src="https://b-ssl.duitang.com/uploads/item/201704/23/20170423000218_Vms8U.thumb.700_0.jpeg">
+                <span style="padding:0 10px;"> <span class="sub-title">By</span> 29-Y</span>
+                <span class="post-date sub-title">at: 2019-04-12</span>
             </div>
-            <div class="flex-1 is-flex flex-column center full-height">
-                <strong>2</strong>
-                <p>Tags</p>
-            </div>
-        </div>
-    </div>
-    <div id="tag_cloud" class="content-inner content-box">
-        <div class="has-text-centered">
-            <strong>Tags</strong>
-        </div>
-        <div class="content-inner is-flex flex-wrap justify-space-between">
             
-                <a class="tags-item" href="tags/TensorFlow/" title="TensorFlow" rel="1">
-                    TensorFlow
-                </a>
-            
-                <a class="tags-item" href="tags/Mao-Yuan-study/" title="Mao Yuan study" rel="1">
-                    Mao Yuan study
-                </a>
+                <div>
+                    
+                         <a class="tag is-post-tag" href="/tags/TensorFlow/">TensorFlow</a>
+                    
+                </div>
             
         </div>
-    </div>
-    <div class="content-inner content-box">
-        <div class="has-text-centered">
-            <strong>Categories</strong>
+        <div class="content" style="overflow: auto">
+            <h1 id="3-1-TensorFlow&#x8BA1;&#x7B97;&#x6A21;&#x578B;&#x2014;&#x2014;&#x8BA1;&#x7B97;&#x56FE;"><a href="#3-1-TensorFlow&#x8BA1;&#x7B97;&#x6A21;&#x578B;&#x2014;&#x2014;&#x8BA1;&#x7B97;&#x56FE;" class="headerlink" title="3.1 TensorFlow&#x8BA1;&#x7B97;&#x6A21;&#x578B;&#x2014;&#x2014;&#x8BA1;&#x7B97;&#x56FE;"></a>3.1 TensorFlow&#x8BA1;&#x7B97;&#x6A21;&#x578B;&#x2014;&#x2014;&#x8BA1;&#x7B97;&#x56FE;</h1><h2 id="3-1-1-&#x8BA1;&#x7B97;&#x56FE;&#x7684;&#x6982;&#x5FF5;"><a href="#3-1-1-&#x8BA1;&#x7B97;&#x56FE;&#x7684;&#x6982;&#x5FF5;" class="headerlink" title="3.1.1 &#x8BA1;&#x7B97;&#x56FE;&#x7684;&#x6982;&#x5FF5;"></a>3.1.1 &#x8BA1;&#x7B97;&#x56FE;&#x7684;&#x6982;&#x5FF5;</h2><blockquote>
+<p>&#x6570;&#x636E;&#x7ED3;&#x6784;Tensor+&#x8BA1;&#x7B97;&#x6A21;&#x578B;Flow,&#x672C;&#x8EAB;&#x662F;&#x4E00;&#x4E2A;&#x5F20;&#x91CF;&#xFF08;&#x53EF;&#x7B80;&#x5355;&#x7684;&#x7406;&#x89E3;&#x4E3A;&#x591A;&#x7EF4;&#x6570;&#x7EC4;&#xFF09;</p>
+<ul>
+<li>Flow&#x76F4;&#x89C2;&#x5730;&#x8868;&#x8FBE;&#x4E86;&#x5F20;&#x91CF;&#x4E4B;&#x95F4;&#x901A;&#x8FC7;&#x8BA1;&#x7B97;&#x76F8;&#x4E92;&#x8F6C;&#x5316;&#x7684;&#x8FC7;&#x7A0B;</li>
+<li>TensorFlow&#x662F;&#x4E00;&#x4E2A;&#x901A;&#x8FC7;&#x8BA1;&#x7B97;&#x56FE;&#x7684;&#x5F62;&#x5F0F;&#x6765;&#x8868;&#x8FF0;&#x8BA1;&#x7B97;&#x7684;&#x7F16;&#x7A0B;&#x7CFB;&#x7EDF;</li>
+<li>&#x6BCF;&#x4E00;&#x4E2A;&#x8BA1;&#x7B97;&#x90FD;&#x662F;&#x8BA1;&#x7B97;&#x56FE;&#x4E0A;&#x7684;&#x4E00;&#x4E2A;&#x8282;&#x70B9;&#xFF0C;&#x8282;&#x70B9;&#x4E4B;&#x95F4;&#x7684;&#x8FB9;&#x63CF;&#x8FF0;&#x4E86;&#x8BA1;&#x7B97;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;</li>
+</ul>
+</blockquote>
+<h2 id="3-1-2-&#x8BA1;&#x7B97;&#x56FE;&#x7684;&#x4F7F;&#x7528;"><a href="#3-1-2-&#x8BA1;&#x7B97;&#x56FE;&#x7684;&#x4F7F;&#x7528;" class="headerlink" title="3.1.2 &#x8BA1;&#x7B97;&#x56FE;&#x7684;&#x4F7F;&#x7528;"></a>3.1.2 &#x8BA1;&#x7B97;&#x56FE;&#x7684;&#x4F7F;&#x7528;</h2><ul>
+<li>TensorFlow&#x7A0B;&#x5E8F;&#x4E00;&#x822C;&#x5206;&#x4E3A;&#x4E24;&#x4E2A;&#x9636;&#x6BB5;<ul>
+<li>&#x5B9A;&#x4E49;&#x8BA1;&#x7B97;&#x56FE;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x8BA1;&#x7B97;</li>
+<li>&#x6267;&#x884C;&#x8BA1;&#x7B97;</li>
+</ul>
+</li>
+<li>tf.get_default_graph&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x5F53;&#x524D;&#x9ED8;&#x8BA4;&#x7684;&#x8BA1;&#x7B97;&#x56FE;</li>
+<li>tf.Graph&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x751F;&#x6210;&#x65B0;&#x7684;&#x8BA1;&#x7B97;&#x56FE;<br>&#x4E0D;&#x540C;&#x8BA1;&#x7B97;&#x56FE;&#x4E0A;&#x7684;&#x5F20;&#x91CF;&#x548C;&#x8FD0;&#x7B97;&#x90FD;&#x4E0D;&#x4F1A;&#x5171;&#x4EAB;</li>
+<li>&#x5728;&#x4E00;&#x4E2A;&#x8BA1;&#x7B97;&#x56FE;&#x4E2D;&#x53EF;&#x4EE5;&#x7528;&#x96C6;&#x5408;&#x6765;&#x7BA1;&#x7406;&#x4E0D;&#x540C;&#x7C7B;&#x522B;&#x7684;&#x8D44;&#x6E90;<h1 id="3-2-TensorFlow&#x7684;&#x6570;&#x636E;&#x6A21;&#x578B;"><a href="#3-2-TensorFlow&#x7684;&#x6570;&#x636E;&#x6A21;&#x578B;" class="headerlink" title="3.2 TensorFlow&#x7684;&#x6570;&#x636E;&#x6A21;&#x578B;"></a>3.2 TensorFlow&#x7684;&#x6570;&#x636E;&#x6A21;&#x578B;</h1><h2 id="3-2-1-&#x5F20;&#x91CF;&#x7684;&#x6982;&#x5FF5;"><a href="#3-2-1-&#x5F20;&#x91CF;&#x7684;&#x6982;&#x5FF5;" class="headerlink" title="3.2.1 &#x5F20;&#x91CF;&#x7684;&#x6982;&#x5FF5;"></a>3.2.1 &#x5F20;&#x91CF;&#x7684;&#x6982;&#x5FF5;</h2></li>
+<li>&#x6240;&#x6709;&#x7684;&#x6570;&#x636E;&#x90FD;&#x901A;&#x8FC7;&#x5F20;&#x91CF;&#x7684;&#x5F62;&#x5F0F;&#x6765;&#x8868;&#x793A;</li>
+<li>&#x5F20;&#x91CF;&#xFF08;tensor&#xFF09;&#x53EF;&#x4EE5;&#x7B80;&#x5355;&#x7684;&#x7406;&#x89E3;&#x4E3A;&#x591A;&#x7EF4;&#x6570;&#x7EC4;&#x3002;&#x5176;&#x4E2D;&#x96F6;&#x9636;&#x5F20;&#x91CF;&#x8868;&#x793A;&#x6807;&#x91CF;&#xFF08;scalar&#xFF09;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x6570;&#xFF1B;&#x7B2C;&#x4E00;&#x9636;&#x5F20;&#x91CF;&#x4E3A;&#x5411;&#x91CF;&#xFF08;vectoer&#xFF09;&#xFF1B;&#x7B2C;n&#x9636;&#x5F20;&#x91CF;&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x4E3A;&#x4E00;&#x4E2A;n&#x7EF4;&#x6570;&#x7EC4;<br>&#x5F20;&#x91CF;&#x53EA;&#x662F;&#x5BF9;TensorFlow&#x4E2D;&#x8FD0;&#x7B97;&#x7684;&#x5F15;&#x7528;&#xFF0C;&#x5728;&#x5F20;&#x91CF;&#x4E2D;&#x5E76;&#x6CA1;&#x6709;&#x771F;&#x6B63;&#x4FDD;&#x5B58;&#x6570;&#x5B57;&#xFF0C;&#x5B83;&#x4FDD;&#x5B58;&#x7684;&#x662F;&#x5982;&#x4F55;&#x5F97;&#x5230;&#x8FD9;&#x4E9B;&#x6570;&#x5B57;&#x7684;&#x8FD0;&#x7B97;&#x8FC7;&#x7A0B;</li>
+<li>&#x5F20;&#x91CF;&#x7684;&#x4E09;&#x4E2A;&#x5C5E;&#x6027;&#xFF1A;&#x540D;&#x5B57;(name),&#x7EF4;&#x5EA6;(shape),&#x7C7B;&#x578B;(type)<ul>
+<li>name&#xFF1A;&#x4E0D;&#x4EC5;&#x662F;&#x5F20;&#x91CF;&#x7684;&#x552F;&#x4E00;&#x6807;&#x8BC6;&#x7B26;&#xFF0C;&#x540C;&#x6837;&#x4E5F;&#x7ED9;&#x51FA;&#x4E86;&#x8FD9;&#x4E2A;&#x5F20;&#x91CF;&#x662F;&#x5982;&#x4F55;&#x8BA1;&#x7B97;&#x51FA;&#x6765;&#x7684;&#x3002;&#x5F20;&#x91CF;&#x7684;&#x547D;&#x540D;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x201C;node:src_output&#x201D;&#x7684;&#x5F62;&#x5F0F;&#x7ED9;&#x51FA;&#xFF0C;node&#x4E3A;&#x8282;&#x70B9;&#x7684;&#x540D;&#x79F0;&#xFF0C;src_output&#x8868;&#x793A;&#x5F53;&#x524D;&#x5F20;&#x91CF;&#x6765;&#x81EA;&#x8282;&#x70B9;&#x7684;&#x7B2C;&#x51E0;&#x4E2A;&#x8F93;&#x51FA;&#xFF08;&#x7F16;&#x53F7;&#x4ECE;0&#x5F00;&#x59CB;&#xFF09;</li>
+<li>shape&#xFF1A;&#x5982;shape(2,)&#x8868;&#x793A;&#x4E00;&#x4E2A;&#x957F;&#x5EA6;&#x4E3A;2&#x7684;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;</li>
+<li>type&#xFF1A;&#x6BCF;&#x4E00;&#x4E2A;&#x5F20;&#x91CF;&#x6709;&#x4E00;&#x4E2A;&#x552F;&#x4E00;&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x7C7B;&#x578B;&#x4E0D;&#x5339;&#x914D;&#x4F1A;&#x62A5;&#x9519;&#x3002;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;dtype&#x8BED;&#x53E5;&#x6307;&#x5B9A;&#x7C7B;&#x578B;<br>TensorFlow&#x652F;&#x6301;14&#x79CD;&#x6570;&#x636E;&#x7C7B;&#x578B;&#xFF1A;&#x5B9E;&#x6570;&#xFF08;tf.float32&#x3001;tf.float64&#xFF09;&#x3001;&#x6574;&#x6570;&#xFF08;tf.int8&#x3001;tf.int16&#x3001;tf.int32&#x3001;tf.int64&#x3001;tf.unit8&#xFF09;&#x3001;&#x5E03;&#x5C14;&#x578B;&#xFF08;tf.bool&#xFF09;&#x3001;&#x590D;&#x6570;&#xFF08;tf.complex64&#x3001;tf.complex128&#xFF09;<h2 id="3-2-2-&#x5F20;&#x91CF;&#x7684;&#x4F7F;&#x7528;"><a href="#3-2-2-&#x5F20;&#x91CF;&#x7684;&#x4F7F;&#x7528;" class="headerlink" title="3.2.2  &#x5F20;&#x91CF;&#x7684;&#x4F7F;&#x7528;"></a>3.2.2  &#x5F20;&#x91CF;&#x7684;&#x4F7F;&#x7528;</h2><blockquote>
+<p>&#x4E3B;&#x8981;&#x5206;&#x4E3A;&#x4E24;&#x5927;&#x7C7B;&#xFF1A;&#x5BF9;&#x4E2D;&#x95F4;&#x8BA1;&#x7B97;&#x7ED3;&#x679C;&#x7684;&#x5F15;&#x7528;&#x3001;&#x5F53;&#x8BA1;&#x7B97;&#x56FE;&#x6784;&#x9020;&#x5B8C;&#x6210;&#x540E;&#x83B7;&#x5F97;&#x8BA1;&#x7B97;&#x7ED3;&#x679C;</p>
+</blockquote>
+<h1 id="3-3-TensorFlow&#x8FD0;&#x884C;&#x6A21;&#x578B;&#x2014;&#x2014;&#x4F1A;&#x8BDD;"><a href="#3-3-TensorFlow&#x8FD0;&#x884C;&#x6A21;&#x578B;&#x2014;&#x2014;&#x4F1A;&#x8BDD;" class="headerlink" title="3.3 TensorFlow&#x8FD0;&#x884C;&#x6A21;&#x578B;&#x2014;&#x2014;&#x4F1A;&#x8BDD;"></a>3.3 TensorFlow&#x8FD0;&#x884C;&#x6A21;&#x578B;&#x2014;&#x2014;&#x4F1A;&#x8BDD;</h1></li>
+</ul>
+</li>
+<li>session&#x7528;&#x6765;&#x6267;&#x884C;&#x5B9A;&#x4E49;&#x597D;&#x7684;&#x8FD0;&#x7B97;&#xFF0C;&#x5B83;&#x62E5;&#x6709;&#x5E76;&#x7BA1;&#x7406;TensorFlow&#x7A0B;&#x5E8F;&#x8FD0;&#x884C;&#x65F6;&#x7684;&#x6240;&#x6709;&#x8D44;&#x6E90;&#xFF0C;&#x6240;&#x6709;&#x8BA1;&#x7B97;&#x5B8C;&#x6210;&#x4E4B;&#x540E;&#x9700;&#x8981;&#x5173;&#x95ED;&#x4F1A;&#x8BDD;&#x6765;&#x5E2E;&#x52A9;&#x7CFB;&#x7EDF;&#x56DE;&#x6536;&#x8D44;&#x6E90;&#xFF0C;&#x5426;&#x5219;&#x53EF;&#x80FD;&#x51FA;&#x73B0;&#x8D44;&#x6E90;&#x6CC4;&#x9732;&#x95EE;&#x9898;</li>
+<li>&#x4F7F;&#x7528;&#x4F1A;&#x8BDD;&#x7684;&#x6A21;&#x5F0F;&#x4E00;&#x822C;&#x6709;&#x4E24;&#x79CD;<br>&#x7B2C;&#x4E00;&#x79CD;&#x9700;&#x8981;&#x660E;&#x786E;&#x8C03;&#x7528;&#x4F1A;&#x8BDD;&#x751F;&#x6210;&#x51FD;&#x6570;&#x548C;&#x5173;&#x95ED;&#x5BF9;&#x8BDD;&#x51FD;&#x6570;</li>
+</ul>
+<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sess=tf.Session()</span><br><span class="line">sess.run(...)</span><br><span class="line">sess.close</span><br></pre></td></tr></tbody></table></figure>
+<ul>
+<li><p>&#x5F53;&#x7A0B;&#x5E8F;&#x56E0;&#x4E3A;&#x5F02;&#x5E38;&#x9000;&#x51FA;&#x65F6;&#xFF0C;&#x5173;&#x95ED;&#x4F1A;&#x8BDD;&#x7684;&#x51FD;&#x6570;&#x53EF;&#x80FD;&#x5C31;&#x4E0D;&#x4F1A;&#x88AB;&#x6267;&#x884C;&#x4ECE;&#x800C;&#x5BFC;&#x81F4;&#x8D44;&#x6E90;&#x6CC4;&#x9732;&#xFF0C;&#x53EF;&#x7528;python&#x7684;&#x4E0A;&#x4E0B;&#x6587;&#x7BA1;&#x7406;&#x5668;&#x6765;&#x4F7F;&#x7528;&#x5BF9;&#x8BDD;</p>
+<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">with tf.Session() as sess:</span><br><span class="line">    sess.run()</span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>&#x4E0D;&#x9700;&#x8981;&#x4F7F;&#x7528;Session.close()&#x51FD;&#x6570;&#x6765;&#x5173;&#x95ED;&#x4F1A;&#x8BDD;&#xFF0C;&#x5F53;&#x4E0A;&#x4E0B;&#x6587;&#x9000;&#x51FA;&#x65F6;&#x4F1A;&#x8BDD;&#x5173;&#x95ED;&#x548C;&#x8D44;&#x6E90;&#x91CA;&#x653E;&#x4E5F;&#x81EA;&#x52A8;&#x5B8C;&#x6210;&#x4E86;</p>
+</li>
+<li>Tensorflow&#x4F1A;&#x81EA;&#x52A8;&#x751F;&#x6210;&#x4E00;&#x4E2A;&#x9ED8;&#x8BA4;&#x7684;&#x56FE;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x7279;&#x6B8A;&#x6307;&#x5B9A;&#xFF0C;&#x8FD0;&#x7B97;&#x4F1A;&#x81EA;&#x52A8;&#x52A0;&#x5165;&#x8FD9;&#x4E2A;&#x8BA1;&#x7B97;&#x56FE;&#x3002;Tensorflow&#x7684;&#x4F1A;&#x8BDD;&#x4E5F;&#x6709;&#x8FD9;&#x4E2A;&#x673A;&#x5236;&#xFF0C;&#x4F46;Tensoflow&#x4E0D;&#x4F1A;&#x81EA;&#x52A8;&#x751F;&#x6210;&#x9ED8;&#x8BA4;&#x7684;&#x4F1A;&#x8BDD;&#xFF0C;&#x800C;&#x662F;&#x9700;&#x8981;&#x624B;&#x52A8;&#x6307;&#x5B9A;&#x3002;&#x5F53;&#x9ED8;&#x8BA4;&#x7684;&#x4F1A;&#x8BDD;&#x88AB;&#x6307;&#x5B9A;&#x4E4B;&#x540E;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;tf.Tensor.eval&#x51FD;&#x6570;&#x6765;&#x8BA1;&#x7B97;&#x4E00;&#x4E2A;&#x5F20;&#x91CF;&#x7684;&#x53D6;&#x503C;&#x3002;</li>
+</ul>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
         </div>
-        <div class="content-inner">
+        <div class="post-reply">
+            
+                <!-- 来必力City版安装代码 -->
+                <div id="lv-container" data-id="city" data-uid="MTAyMC8yOTE4Ni81NzUz">
+                    <script type="text/javascript">
+                        (function(d, s) {
+                            var j, e = d.getElementsByTagName(s)[0];
+
+                            if (typeof LivereTower === 'function') { return; }
+
+                            j = d.createElement(s);
+                            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                            j.async = true;
+
+                            e.parentNode.insertBefore(j, e);
+                        })(document, 'script');
+                    </script>
+                    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                </div>
+                <!-- City版安装代码已完成 -->
+            
             
         </div>
     </div>
-    <div class="content-inner content-box">
-        <div class="has-text-centered">
-            <strong>Archives</strong>
-        </div>
-        <div class="content-inner">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">四月 2019</a><span class="archive-list-count">3</span></li></ul>
-        </div>
-    </div>
-</aside>
-            
-        </div>
-    </div>
-</div>
+</section>
+<script>
+    // 获取第一张图, 用以当封面背景图
+    var img = document.querySelectorAll('img')[1]
+
+    if (img) {
+        var header_box = document.querySelector('#header_box')
+        header_box.style.backgroundImage = 'url('+ img.src +')'
+    }
+</script>
+
+<!-- for code block highlight --> 
+<!-- theme.block_highlight -->
+<!-- we do not guarantee the char sequences spell right, usr himself do it -->
+<link rel="stylesheet" href="/css/highlight_rainbow.css">
+<script src="/js/highlight.min.js"></script>
+<script type="text/javascript"> hljs.initHighlightingOnLoad();</script>
 
       </div>
   </div>
