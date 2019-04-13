@@ -344,23 +344,21 @@
   
 
   
-  {% if site.comment_gitment_repo %}
-<div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
 <script>
-    var gitment = new Gitment({
-        id: 'Thu Apr 11 2019 17:20:34 GMT+0800',
-        owner: '{{site.github_username}}',
-        repo: '{{site.comment_gitment_repo}}',
-        oauth: {
-            client_id: '{{site.comment_gitment_clientId}}',
-            client_secret: '{{site.comment_gitment_clientSecret}}',
-        },
-    });
-    gitment.render('gitmentContainer')
+var gitment = new Gitment({
+  id: "http://yoursite.com/2019/04/11/hello-world/",
+  owner: 'Jndoi',
+  repo: 'Jndoi.github.io',
+  oauth: {
+    client_id: '9fe2e54640fdb3bcae10',
+    client_secret: '581e9fe1255b98a7c1fa6bbb98a47f5f63de465a',
+  },
+})
+gitment.render('gitment-ctn')
 </script>
-{% endif %}
   
 
 
